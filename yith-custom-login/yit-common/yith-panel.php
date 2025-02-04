@@ -160,7 +160,7 @@ if( !class_exists('YITH_Panel') ) {
 
                     <p class="submit">
                         <input type="hidden" name="panel_page" value="<?php echo $page ?>" />
-                        <input class="button-primary" type="submit" name="save_options" value="<?php esc_html__( 'Save Options', 'yith-custom-login' ); ?>" />
+                        <input class="button-primary" type="submit" name="save_options" value="<?php esc_html_e( 'Save Options', 'yith-custom-login' ); ?>" />
                     </p>
                 </form>
                 <?php do_action('yith_panel_after_panel'); ?>
