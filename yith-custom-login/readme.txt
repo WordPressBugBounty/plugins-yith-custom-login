@@ -4,8 +4,8 @@ Contributors: YITHEMES
 Tags: custom login, wordpress login, customization, themes, login screen
 Requires PHP: 7.4
 Requires at least: 6.4
-Tested up to: 6.7.1
-Stable tag: 1.7.6
+Tested up to: 6.8
+Stable tag: 1.7.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -65,6 +65,9 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 
 == Changelog ==
 
+= 1.7.7 - Released: 24 April, 2025 =
+
+* New: Support for WordPress 6.8
 
 = 1.7.6 - Released: 19 December, 2024 =
 

@@ -3,7 +3,7 @@
  * Plugin Name: YITH Custom Login
  * Plugin URI: https://yithemes.com/themes/plugins/yith-custom-login/
  * Description: <code><strong>YITH Custom Login</strong></code> allows you to customize the login and register WordPress pages.
- * Version: 1.7.6
+ * Version: 1.7.7
  * Author: YITH <plugins@yithemes.com>
  * Author URI: https://yithemes.com/
  * Text Domain: yith-custom-login
@@ -11,7 +11,7 @@
  *
  * @author  YITH <plugins@yithemes.com>
  * @package YITH Custom Login
- * @version 1.7.6
+ * @version 1.7.7
  */
 /*  Copyright 2013-2024  YITH  (email : plugins@yithemes.com)
 
@@ -44,7 +44,6 @@ define( 'YITH_LOGIN_DIR', plugin_dir_path( __FILE__ ) );
 
 // Load required classes and functions
 require_once( 'functions.yith-login.php' );
-require_once( 'yith-login-options.php' );
 require_once( 'class.yith-login-admin.php' );
 require_once( 'class.yith-login-frontend.php' );
 require_once( 'class.yith-login.php' );
